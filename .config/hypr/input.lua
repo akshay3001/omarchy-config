@@ -76,3 +76,9 @@ hl.config({
     workspace_swipe_min_speed_to_force = 10,
   },
 })
+
+-- Set pointer sensitivity for the built-in trackpad.
+hl.device({
+  name = "ven_2c2f:00-2c2f:0034-touchpad",
+  sensitivity = 0.1,
+})

@@ -54,6 +54,7 @@ WhatsApp, and Google Messages are disabled. Super+Shift+C is reused above.
 - Three-finger horizontal swipe changes workspace.
 - Touchscreen input and tap-to-click are disabled.
 - Natural scrolling is disabled. Touchpad scroll factor is 0.2.
+- Built-in trackpad pointer sensitivity is 0.1.
 - Workspace swipe inversion is disabled. Distance is 200, cancel ratio is
   0.35, and minimum speed to force a change is 10.
 - Caps Lock remains the Compose key.
