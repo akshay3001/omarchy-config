@@ -32,6 +32,8 @@ App shortcuts forward keys to the focused app, so behavior depends on the app.
 | Super+W | Close tab. |
 | Super+L | Address bar. |
 | Super+R | Reload. |
+| Super+F | Find in the focused app. |
+| Ctrl+F | Toggle full screen. |
 | Super+Shift+P | Command palette. |
 | Super+Shift+M | Open YouTube Music. |
 | Super+Shift+V | Open clipboard manager. |

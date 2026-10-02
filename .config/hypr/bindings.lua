@@ -59,6 +59,10 @@ o.bind("SUPER + W", "Close tab", send_shortcut("CTRL", "W"))
 o.bind("SUPER + L", "Address bar", send_shortcut("CTRL", "L"))
 o.bind("SUPER + R", "Reload", send_shortcut("CTRL", "R"))
 
+hl.unbind("SUPER + F") -- was: fullscreen
+o.bind("SUPER + F", "Find", send_shortcut("CTRL", "F"))
+o.bind("CTRL + F", "Full screen", hl.dsp.window.fullscreen({ mode = "fullscreen" }))
+
 hl.unbind("SUPER + SHIFT + P") -- was: Google Photos
 o.bind("SUPER + SHIFT + P", "Command palette", send_shortcut("CTRL SHIFT", "P"))
 
