@@ -23,7 +23,7 @@ files in this repo were removed. Git history keeps the previous repo contents.
 ## Sensel touchpad
 
 The Dell XPS 14 DA14260 uses a Sensel touchpad with a saved click force of
-70 g and haptic intensity of 30%. The settings are in
+70 g, release threshold of 46 g, and haptic intensity of 30%. The settings are in
 [`etc/sensel-touchpad.conf`](etc/sensel-touchpad.conf). To restore them, install
 [sensel-touchpad-linux](https://github.com/glutamatt/sensel-touchpad-linux), copy
 the saved file to `/etc/sensel-touchpad.conf`, and run
