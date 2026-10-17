@@ -1,7 +1,8 @@
 # Omarchy config reference
 
 Saved on 2026-10-02 from this machine's active user config.
-Only files that differ from the installed Omarchy config templates are included.
+The `.config/` directory contains only files that differ from the installed
+Omarchy config templates.
 The files are exact copies, including the template comments.
 
 The `.config/` paths match the paths under `~/.config/`.
@@ -18,6 +19,16 @@ files in this repo were removed. Git history keeps the previous repo contents.
 | `.config/hypr/monitors.lua` | Monitor scale of 1.6 and GDK scale of 2. |
 | `.config/omarchy/shell.json` | 12-hour clock with AM/PM and a Tailscale bar item. |
 | `.config/ghostty/config` | Font size of 11. |
+
+## Sensel touchpad
+
+The Dell XPS 14 DA14260 uses a Sensel touchpad with a saved click force of
+70 g and haptic intensity of 30%. The settings are in
+[`etc/sensel-touchpad.conf`](etc/sensel-touchpad.conf). To restore them, install
+[sensel-touchpad-linux](https://github.com/glutamatt/sensel-touchpad-linux), copy
+the saved file to `/etc/sensel-touchpad.conf`, and run
+`sudo sensel_config.py --apply-config`. The installer sets up automatic restore
+at boot, after sleep, and when the device connects.
 
 ## Shortcuts
 
