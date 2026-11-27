@@ -28,9 +28,8 @@
 -- o.bind("SUPER + H", nil, "voxtype record toggle")
 -- o.bind("SUPER + PERIOD", nil, "omarchy-shell shell toggle omarchy.emojis")
 
--- Move the close-window shortcut from Super+W to Super+Q.
+-- Free Super+W for Close tab. Omarchy also binds Super+Q to close window.
 hl.unbind("SUPER + W")
-o.bind("SUPER + Q", "Close window", hl.dsp.window.close())
 
 -- Forward Mac-style app shortcuts to the focused window. Send key down/up
 -- separately so synthetic keys do not remain held.
@@ -107,7 +106,6 @@ end
 o.bind("SUPER + BACKSPACE", "Delete to line start", delete_to_line_start)
 
 o.bind("SUPER + Z", "Undo", send_shortcut("CTRL", "Z"))
-o.bind("SUPER + A", "Select all", send_shortcut("CTRL", "A"))
 
 -- Use Super-click as Ctrl-click in all apps. Move windows with Super+Alt-drag.
 hl.unbind("SUPER + mouse:272") -- was: move window
